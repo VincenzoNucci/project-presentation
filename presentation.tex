@@ -10,38 +10,38 @@
 
 \begin{document}
 	\begin{frame}
-		\titlepage
-	\end{frame}
+	\titlepage
+\end{frame}
 
 \begin{frame}
 \frametitle{LS IoT Platform}
+\begin{itemize}
+	\item espone servizi REST per letture di sensori
 	\begin{itemize}
-		\item espone servizi REST per letture di sensori
-		\begin{itemize}
-			\item ultima lettura di un sensore
-			\item letture di una certa settimana
-			\item letture di un certo mese
-			\item letture di determinati campi dei sensori
-		\end{itemize}
-		\item servizio di sottoscrizione con notifiche PUSH
-		\begin{itemize}
-			\item debolmente accoppiato grazie ad Apache ActiveMQ
-		\end{itemize}
-		\item integrazione della sottoscrizione con Microsoft Dynamics NAV
-		\begin{itemize}
-			\item utilizzo dei web services SOAP offerti da NAV
-		\end{itemize}
-		\item indipendente da sorgenti dati e formato dei dati
-		\begin{itemize}
-			\item grazie alle interfacce e Apache Avro
-		\end{itemize}
-		\item interfaccia web
-		\begin{itemize}
-			\item pagina per la registrazione delle applicaizoni
-			\item pagina per la gestione delle richieste
-			\item pagina per la gestione dei servizi attivi per gli utenti
-		\end{itemize}
+		\item ultima lettura di un sensore
+		\item letture di una certa settimana
+		\item letture di un certo mese
+		\item letture di determinati campi dei sensori
 	\end{itemize}
+	\item servizio di sottoscrizione con notifiche PUSH
+	\begin{itemize}
+		\item debolmente accoppiato grazie ad Apache ActiveMQ
+	\end{itemize}
+	\item integrazione della sottoscrizione con Microsoft Dynamics NAV
+	\begin{itemize}
+		\item utilizzo dei web services SOAP offerti da NAV
+	\end{itemize}
+	\item indipendente da sorgenti dati e formato dei dati
+	\begin{itemize}
+		\item grazie alle interfacce e Apache Avro
+	\end{itemize}
+	\item interfaccia web
+	\begin{itemize}
+		\item pagina per la registrazione delle applicaizoni
+		\item pagina per la gestione delle richieste
+		\item pagina per la gestione dei servizi attivi per gli utenti
+	\end{itemize}
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -87,34 +87,34 @@
 \begin{frame}
 \frametitle{Subscribe Rule}
 \begin{itemize}
-	\item messaggio json da inviare per usare il servizio push
-	\item l'utente specifica la condizione
-	\begin{itemize}
-		\item nome e IP applicazione
-		\item coda o topic activemq
-		\item subscribe rule
-		\begin{itemize}
-			\item nome tabella da interrogare
-			\item lista dei campi da monitorarne i cambiamenti
-			\item espressione CRON
-			\item clausola where
-			
-		\end{itemize}
-	\end{itemize}
+\item messaggio json da inviare per usare il servizio push
+\item l'utente specifica la condizione
+\begin{itemize}
+\item nome e IP applicazione
+\item coda o topic activemq
+\item subscribe rule
+\begin{itemize}
+\item nome tabella da interrogare
+\item lista dei campi da monitorarne i cambiamenti
+\item espressione CRON
+\item clausola where
+
+\end{itemize}
+\end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Clausola where}
 \begin{itemize}
-	\item condition
-	\begin{itemize}
-		\item insieme di oggetti avro annidati
-	\end{itemize}
-	\item formula
-	\begin{itemize}
-		\item semplice stringa (per NAV)
-	\end{itemize}
+\item condition
+\begin{itemize}
+\item insieme di oggetti avro annidati
+\end{itemize}
+\item formula
+\begin{itemize}
+\item semplice stringa (per NAV)
+\end{itemize}
 \end{itemize}
 \end{frame}
 
@@ -164,17 +164,38 @@
 \end{frame}
 
 %-------------------------inizio client-----------------------------
+\begin{frame}
+\frametitle{Client per la piattaforma}
+\begin{itemize}
+\item Sviluppato su Microsoft Dynamics NAV nonostante diverse lacune dell'ambiente
+\begin{itemize}
+\item Mancata possibilità di consumo diretto di servizi REST
+\item Mancata possibilità di gestione del formato JSON
+\item Difficoltà nell'interazione con software esterni non Microsoft
+\end{itemize}
+\item Risoluzione tramite sviluppo di un client C\#
+\begin{itemize}
+\item con chiamata dei servizi REST, serializzazione e deserializzazione del JSON
+\item in conformità con le classi della piattaforma tramite Apache Avro
+\item integrato poi in NAV tramite dll 
+\end{itemize}
+\item Sviluppo di un "setup" per impostare le chiamate ai servizi su NAV
+\begin{itemize}
+\item svolto mediante 2 approcci (PLC e Machine Center)
+\item con trattamento dei dati per l'ambiente Navision
+\item evitando di prendere valori già inseriti o errati
+\end{itemize}
 
+\item Interazione con il servizio di sottoscrizione nell'ambiente NAV
+\begin{itemize}
+\item tramite esternazione di una codeunit come web service SOAP
+\end{itemize}
+\end{itemize}
+\end{frame}
 \begin{frame}
 \frametitle{Client NAV}
 \includegraphics[width=1\textwidth]{images/NAVClient.png}
 \end{frame}
-
-\begin{frame}
-\frametitle{Ambiente di sviluppo NAV}
-\includegraphics[width=1\textwidth]{images/NAVDevelopmentEnvironment.png}
-\end{frame}
-
 
 \begin{frame}
 \frametitle{Class Diagram Client 1}
@@ -182,29 +203,15 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Class Diagram Client 2}
-	\includegraphics[width=0.6\textwidth]{images/ClassDiagramParte2.png}
+\frametitle{Class Diagram Client 2}
+\includegraphics[width=0.6\textwidth]{images/ClassDiagramParte2.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Lista con i parametri}
-\includegraphics[width=1\textwidth]{images/MachineParameter.png}
+\frametitle{Ambiente di sviluppo (C/SIDE) NAV}
+\includegraphics[width=1\textwidth]{images/NAVDevelopmentEnvironment.png}
 \end{frame}
 
-\begin{frame}
-\frametitle{Metodo PushMeasurament 1}
-\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments1.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{Metodo PushMeasurament 2}
-\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments2.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{Metodo PushMeasurament 3}
-\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments3.png}
-\end{frame}
 
 \begin{frame}
 \frametitle{Lista delle funzioni della codeunit}
@@ -213,18 +220,8 @@
 
 
 \begin{frame}
-\frametitle{NAV servizi web}
-\includegraphics[width=1\textwidth]{images/NAVServiziWeb.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{Metodo SetMeasuramentPLC}
-\includegraphics[width=1\textwidth]{images/NAVSetMesurament.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{NAV SubscriptionPage}
-\includegraphics[width=1\textwidth]{images/NAVSubscriptionPage.png}
+\frametitle{Lista PLC}
+\includegraphics[width=1\textwidth]{images/PLCList.png}
 \end{frame}
 
 \begin{frame}
@@ -232,15 +229,60 @@
 \includegraphics[width=1\textwidth]{images/PLCAssignmentList.png}
 \end{frame}
 
+
 \begin{frame}
-\frametitle{Lista PLC}
-\includegraphics[width=1\textwidth]{images/PLCList.png}
+\frametitle{Lista con i parametri}
+\includegraphics[width=1\textwidth]{images/MachineParameter.png}
 \end{frame}
+
+\begin{frame}
+\frametitle{Pagina del token}
+\includegraphics[width=1\textwidth]{images/tokenpage.png}
+\end{frame}
+
+
 
 \begin{frame}
 \frametitle{PLC Reading List}
 \includegraphics[width=1\textwidth]{images/PLCReadingList.png}
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Metodo SetMeasurementPLC}
+\includegraphics[width=1\textwidth]{images/NAVSetMesurament.png}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{NAV servizi web}
+\includegraphics[width=1\textwidth]{images/NAVServiziWeb.png}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{NAV SubscriptionPage}
+\includegraphics[width=1\textwidth]{images/NAVSubscriptionPage.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Metodo PushMeasurement 1}
+\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments1.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Metodo PushMeasurement 2}
+\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments2.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Metodo PushMeasurement 3}
+\includegraphics[width=1\textwidth]{images/NAVPushMeasuraments3.png}
+\end{frame}
+
+
+
+
 
 
 \subsection{sub b}
