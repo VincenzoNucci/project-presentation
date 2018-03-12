@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.27)  12 MAR 2018 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.12)  12 MAR 2018 17:21
 entering extended mode
 **./presentation.tex
 (presentation.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemodes.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasemodes.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count79
@@ -15,13 +15,14 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \beamer@tempcount=\count80
 \c@beamerpauses=\count81
 
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasedecode.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasedecode.sty"
 \beamer@slideinframe=\count82
 \beamer@minimum=\count83
 )
 \beamer@commentbox=\box27
 \beamer@modecount=\count84
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 \headdp=\dimen102
@@ -67,7 +68,7 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 \beamer@sectionadjust=\count102
 \beamer@tocsectionnumber=\count103
 
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseoptions.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
@@ -118,7 +119,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
@@ -344,7 +345,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -367,7 +368,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -399,54 +400,52 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count120
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count121
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4374.
-Package hyperref Info: Option `implicit' set `false' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `implicit' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count122
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen164
 \Fld@menulength=\count123
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count124
 
 
 Package hyperref Message: Stopped early.
 
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count125
 \c@bookmark@seq@number=\count126
 
@@ -455,11 +454,9 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaserequires.sty
-
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecompatibilit
-y.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasefont.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaserequires.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasecompatibility.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasefont.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -477,26 +474,26 @@ Package: sansmathaccent 2013/03/28
 ("C:\Program Files\MiKTeX 2.9\tex\latex\filehook\filehook.sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetranslator.s
-ty ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetranslator.sty"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
-))
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemisc.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetwoscreens.s
-ty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoverlay.sty
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasemisc.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetwoscreens.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseoverlay.sty"
 \beamer@argscount=\count127
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count128
-) (C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetitle.sty)
-
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasesection.sty
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetitle.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasesection.sty"
 \c@lecture=\count129
 \c@part=\count130
 \c@section=\count131
 \c@subsection=\count132
 \c@subsubsection=\count133
-) (C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframe.sty
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseframe.sty"
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
@@ -512,37 +509,33 @@ ty)
 \framewidth=\dimen168
 \c@framenumber=\count137
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseverbatim.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseverbatim.sty"
 \beamer@verbatimfileout=\write4
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframesize.st
-y
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseframesize.sty"
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count138
 \beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframecompone
-nts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseframecomponents.sty"
 \beamer@footins=\box44
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasecolor.sty"
 \beamer@bg@ht=\dimen170
 \beamer@bg@wd=\dimen171
 \beamer@bg@dp=\dimen172
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenotes.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasenotes.sty"
 \beamer@frameboxcopy=\box45
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetoc.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetemplates.st
-y
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetoc.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetemplates.sty"
 \beamer@sbttoks=\toks30
 
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseauxtemplates
-.sty
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseboxes.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseauxtemplates.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseboxes.sty"
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
@@ -555,8 +548,8 @@ y
 )
 \beamer@blockheadheight=\dimen177
 ))
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaselocalstructu
-re.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaselocalstructure.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
@@ -565,11 +558,10 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenavigation.s
-ty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasenavigation.sty"
 \beamer@section@min@dim=\dimen178
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetheorems.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetheorems.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip51
@@ -629,7 +621,7 @@ LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks37
 \thm@bodyfont=\toks38
 \thm@headfont=\toks39
@@ -642,31 +634,21 @@ Package: amsthm 2015/03/04 v2.20.2
 )
 \c@theorem=\count153
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasethemes.sty))
-
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemedefault.sty
-
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerfontthemedefault
-.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedefaul
-t.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemedefaul
-t.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasethemes.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemedefault.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerfontthemedefault.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemedefault.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemedefault.sty"
 \beamer@dima=\dimen188
 \beamer@dimb=\dimen189
 )
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemedefaul
-t.sty)))
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemeBoadilla.st
-y
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemerose.s
-ty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemerounde
-d.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedolphi
-n.sty)
-(C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemeinfoli
-nes.sty)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemedefault.sty")))
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemeBoadilla.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemerose.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemerounded.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemedolphin.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemeinfolines.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
@@ -861,35 +843,36 @@ LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 11.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
-English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-bibliography-dict
-ionary-English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-environment-dicti
-onary-English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-months-dictionary
--English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-numbers-dictionar
-y-English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-theorem-dictionar
-y-English.dict"
+(C:\Users\internship02\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translat
+or-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \c@lstlisting=\count170
-
-(presentation.nav) ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+ (presentation.nav)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 Overfull \hbox (32.54901pt too wide) in paragraph at lines 11--11
@@ -903,7 +886,7 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [1
 
-{C:/Users/PC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/internship02/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -932,9 +915,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 File: images/RequestPagePlatform.png Graphic file (type png)
 <use images/RequestPagePlatform.png>
 Package pdftex.def Info: images/RequestPagePlatform.png  used on input line 50.
- on input line 50.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.36525pt on input line
- 50.
+
+(pdftex.def)             Requested size: 342.2953pt x 200.36525pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -946,10 +928,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/DBPlatform2.png, id=101, 674.52pt x 413.29407pt>
 File: images/DBPlatform2.png Graphic file (type png)
 <use images/DBPlatform2.png>
-Package pdftex.def Info: images/DBPlatform2.png  used on input line 55. on inpu
-t line 55.
-Package pdftex.def Info: Requested size: 342.2953pt x 209.73663pt on input line
- 55.
+Package pdftex.def Info: images/DBPlatform2.png  used on input line 55.
+(pdftex.def)             Requested size: 342.2953pt x 209.73663pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -961,10 +941,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/managePagePlatform.png, id=128, 987.69pt x 578.16pt>
 File: images/managePagePlatform.png Graphic file (type png)
 <use images/managePagePlatform.png>
-Package pdftex.def Info: images/managePagePlatform.png  used on input line 60. 
-on input line 60.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.36525pt on input line
- 60.
+Package pdftex.def Info: images/managePagePlatform.png  used on input line 60.
+(pdftex.def)             Requested size: 342.2953pt x 200.36525pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -976,10 +954,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/DBPlatform3.png, id=155, 674.52pt x 414.04688pt>
 File: images/DBPlatform3.png Graphic file (type png)
 <use images/DBPlatform3.png>
-Package pdftex.def Info: images/DBPlatform3.png  used on input line 65. on inpu
-t line 65.
-Package pdftex.def Info: Requested size: 342.2953pt x 210.11865pt on input line
- 65.
+Package pdftex.def Info: images/DBPlatform3.png  used on input line 65.
+(pdftex.def)             Requested size: 342.2953pt x 210.11865pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -992,9 +968,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 File: images/UserSubscriptionsPlatform.png Graphic file (type png)
 <use images/UserSubscriptionsPlatform.png>
 Package pdftex.def Info: images/UserSubscriptionsPlatform.png  used on input li
-ne 70. on input line 70.
-Package pdftex.def Info: Requested size: 342.2953pt x 184.43309pt on input line
- 70.
+ne 70.
+(pdftex.def)             Requested size: 342.2953pt x 184.43309pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1006,10 +981,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/getlastmeasure.png, id=210, 636.12656pt x 374.14781pt>
 File: images/getlastmeasure.png Graphic file (type png)
 <use images/getlastmeasure.png>
-Package pdftex.def Info: images/getlastmeasure.png  used on input line 75. on i
-nput line 75.
-Package pdftex.def Info: Requested size: 342.2953pt x 201.32317pt on input line
- 75.
+Package pdftex.def Info: images/getlastmeasure.png  used on input line 75.
+(pdftex.def)             Requested size: 342.2953pt x 201.32317pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1021,10 +994,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/Postman1.png, id=237, 739.26187pt x 447.92343pt>
 File: images/Postman1.png Graphic file (type png)
 <use images/Postman1.png>
-Package pdftex.def Info: images/Postman1.png  used on input line 80. on input l
-ine 80.
-Package pdftex.def Info: Requested size: 342.2953pt x 207.40056pt on input line
- 80.
+Package pdftex.def Info: images/Postman1.png  used on input line 80.
+(pdftex.def)             Requested size: 342.2953pt x 207.40056pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1037,9 +1008,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 File: images/SmartObjectsPlatform.png Graphic file (type png)
 <use images/SmartObjectsPlatform.png>
 Package pdftex.def Info: images/SmartObjectsPlatform.png  used on input line 85
-. on input line 85.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.10437pt on input line
- 85.
+.
+(pdftex.def)             Requested size: 342.2953pt x 200.10437pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1066,9 +1036,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 File: images/struttura-query-tree.png Graphic file (type png)
 <use images/struttura-query-tree.png>
 Package pdftex.def Info: images/struttura-query-tree.png  used on input line 12
-4. on input line 124.
-Package pdftex.def Info: Requested size: 342.2953pt x 162.59003pt on input line
- 124.
+4.
+(pdftex.def)             Requested size: 342.2953pt x 162.59003pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1080,10 +1049,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/subscribe-json-1.png, id=372, 368.87813pt x 392.21532pt>
 File: images/subscribe-json-1.png Graphic file (type png)
 <use images/subscribe-json-1.png>
-Package pdftex.def Info: images/subscribe-json-1.png  used on input line 129. o
-n input line 129.
-Package pdftex.def Info: Requested size: 205.37926pt x 218.37032pt on input lin
-e 129.
+Package pdftex.def Info: images/subscribe-json-1.png  used on input line 129.
+(pdftex.def)             Requested size: 205.37926pt x 218.37032pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1095,10 +1062,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/DBPlatform1.png, id=399, 968.86969pt x 484.05844pt>
 File: images/DBPlatform1.png Graphic file (type png)
 <use images/DBPlatform1.png>
-Package pdftex.def Info: images/DBPlatform1.png  used on input line 134. on inp
-ut line 134.
-Package pdftex.def Info: Requested size: 342.2953pt x 171.01839pt on input line
- 134.
+Package pdftex.def Info: images/DBPlatform1.png  used on input line 134.
+(pdftex.def)             Requested size: 342.2953pt x 171.01839pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1110,10 +1075,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/subscribe-json-2.png, id=426, 210.7875pt x 197.98969pt>
 File: images/subscribe-json-2.png Graphic file (type png)
 <use images/subscribe-json-2.png>
-Package pdftex.def Info: images/subscribe-json-2.png  used on input line 139. o
-n input line 139.
-Package pdftex.def Info: Requested size: 205.37926pt x 192.91379pt on input lin
-e 139.
+Package pdftex.def Info: images/subscribe-json-2.png  used on input line 139.
+(pdftex.def)             Requested size: 205.37926pt x 192.91379pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1125,10 +1088,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/ClassDiagram7.png, id=453, 914.66719pt x 398.99063pt>
 File: images/ClassDiagram7.png Graphic file (type png)
 <use images/ClassDiagram7.png>
-Package pdftex.def Info: images/ClassDiagram7.png  used on input line 144. on i
-nput line 144.
-Package pdftex.def Info: Requested size: 342.2953pt x 149.31062pt on input line
- 144.
+Package pdftex.def Info: images/ClassDiagram7.png  used on input line 144.
+(pdftex.def)             Requested size: 342.2953pt x 149.31062pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1140,10 +1101,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/ClassDiagram2.png, id=480, 934.24031pt x 398.23781pt>
 File: images/ClassDiagram2.png Graphic file (type png)
 <use images/ClassDiagram2.png>
-Package pdftex.def Info: images/ClassDiagram2.png  used on input line 149. on i
-nput line 149.
-Package pdftex.def Info: Requested size: 342.2953pt x 145.91159pt on input line
- 149.
+Package pdftex.def Info: images/ClassDiagram2.png  used on input line 149.
+(pdftex.def)             Requested size: 342.2953pt x 145.91159pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1155,10 +1114,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/ClassDiagram1.png, id=507, 882.29625pt x 387.69844pt>
 File: images/ClassDiagram1.png Graphic file (type png)
 <use images/ClassDiagram1.png>
-Package pdftex.def Info: images/ClassDiagram1.png  used on input line 154. on i
-nput line 154.
-Package pdftex.def Info: Requested size: 342.2953pt x 150.40906pt on input line
- 154.
+Package pdftex.def Info: images/ClassDiagram1.png  used on input line 154.
+(pdftex.def)             Requested size: 342.2953pt x 150.40906pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1170,10 +1127,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/popolamento-json.png, id=535, 794.2172pt x 380.92313pt>
 File: images/popolamento-json.png Graphic file (type png)
 <use images/popolamento-json.png>
-Package pdftex.def Info: images/popolamento-json.png  used on input line 159. o
-n input line 159.
-Package pdftex.def Info: Requested size: 342.2953pt x 164.17735pt on input line
- 159.
+Package pdftex.def Info: images/popolamento-json.png  used on input line 159.
+(pdftex.def)             Requested size: 342.2953pt x 164.17735pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1185,10 +1140,8 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 <images/main.png, id=562, 597.73312pt x 400.49625pt>
 File: images/main.png Graphic file (type png)
 <use images/main.png>
-Package pdftex.def Info: images/main.png  used on input line 164. on input line
- 164.
-Package pdftex.def Info: Requested size: 342.2953pt x 229.34856pt on input line
- 164.
+Package pdftex.def Info: images/main.png  used on input line 164.
+(pdftex.def)             Requested size: 342.2953pt x 229.34856pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1197,28 +1150,18 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [21
 
  <./images/main.png>]
-<images/NAVClient.png, id=589, 1028.34187pt x 547.2947pt>
-File: images/NAVClient.png Graphic file (type png)
-<use images/NAVClient.png>
-Package pdftex.def Info: images/NAVClient.png  used on input line 171. on input
- line 171.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-171.
-
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [22
 
- <./images/NAVClient.png>]
-<images/NAVDevelopmentEnvironment.png, id=616, 1022.31938pt x 548.0475pt>
-File: images/NAVDevelopmentEnvironment.png Graphic file (type png)
-<use images/NAVDevelopmentEnvironment.png>
-Package pdftex.def Info: images/NAVDevelopmentEnvironment.png  used on input li
-ne 176. on input line 176.
-Package pdftex.def Info: Requested size: 342.2953pt x 183.49878pt on input line
- 176.
+]
+<images/NAVClient.png, id=615, 1028.34187pt x 547.2947pt>
+File: images/NAVClient.png Graphic file (type png)
+<use images/NAVClient.png>
+Package pdftex.def Info: images/NAVClient.png  used on input line 198.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1226,14 +1169,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [23
 
- <./images/NAVDevelopmentEnvironment.png>]
-<images/ClassDiagramParte1.png, id=643, 419.166pt x 406.1574pt>
+ <./images/NAVClient.png>]
+<images/ClassDiagramParte1.png, id=642, 419.166pt x 406.1574pt>
 File: images/ClassDiagramParte1.png Graphic file (type png)
 <use images/ClassDiagramParte1.png>
-Package pdftex.def Info: images/ClassDiagramParte1.png  used on input line 182.
- on input line 182.
-Package pdftex.def Info: Requested size: 205.37926pt x 199.00647pt on input lin
-e 182.
+Package pdftex.def Info: images/ClassDiagramParte1.png  used on input line 203.
+
+(pdftex.def)             Requested size: 205.37926pt x 199.00647pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1242,13 +1184,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [24
 
  <./images/ClassDiagramParte1.png>]
-<images/ClassDiagramParte2.png, id=671, 388.3308pt x 406.1574pt>
+<images/ClassDiagramParte2.png, id=670, 388.3308pt x 406.1574pt>
 File: images/ClassDiagramParte2.png Graphic file (type png)
 <use images/ClassDiagramParte2.png>
-Package pdftex.def Info: images/ClassDiagramParte2.png  used on input line 187.
- on input line 187.
-Package pdftex.def Info: Requested size: 205.37926pt x 214.80377pt on input lin
-e 187.
+Package pdftex.def Info: images/ClassDiagramParte2.png  used on input line 208.
+
+(pdftex.def)             Requested size: 205.37926pt x 214.80377pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1257,13 +1198,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [25
 
  <./images/ClassDiagramParte2.png>]
-<images/MachineParameter.png, id=700, 1028.34187pt x 547.2947pt>
-File: images/MachineParameter.png Graphic file (type png)
-<use images/MachineParameter.png>
-Package pdftex.def Info: images/MachineParameter.png  used on input line 192. o
-n input line 192.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-192.
+<images/NAVDevelopmentEnvironment.png, id=699, 1022.31938pt x 548.0475pt>
+File: images/NAVDevelopmentEnvironment.png Graphic file (type png)
+<use images/NAVDevelopmentEnvironment.png>
+Package pdftex.def Info: images/NAVDevelopmentEnvironment.png  used on input li
+ne 213.
+(pdftex.def)             Requested size: 342.2953pt x 183.49878pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1271,14 +1211,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [26
 
- <./images/MachineParameter.png>]
-<images/NAVPushMeasuraments1.png, id=727, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments1.png Graphic file (type png)
-<use images/NAVPushMeasuraments1.png>
-Package pdftex.def Info: images/NAVPushMeasuraments1.png  used on input line 19
-7. on input line 197.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-197.
+ <./images/NAVDevelopmentEnvironment.png>]
+<images/NAVFunctionList.png, id=726, 1028.34187pt x 547.2947pt>
+File: images/NAVFunctionList.png Graphic file (type png)
+<use images/NAVFunctionList.png>
+Package pdftex.def Info: images/NAVFunctionList.png  used on input line 219.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1286,14 +1224,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [27
 
- <./images/NAVPushMeasuraments1.png>]
-<images/NAVPushMeasuraments2.png, id=754, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments2.png Graphic file (type png)
-<use images/NAVPushMeasuraments2.png>
-Package pdftex.def Info: images/NAVPushMeasuraments2.png  used on input line 20
-2. on input line 202.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-202.
+ <./images/NAVFunctionList.png>]
+<images/PLCList.png, id=753, 1028.34187pt x 547.2947pt>
+File: images/PLCList.png Graphic file (type png)
+<use images/PLCList.png>
+Package pdftex.def Info: images/PLCList.png  used on input line 225.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1301,14 +1237,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [28
 
- <./images/NAVPushMeasuraments2.png>]
-<images/NAVPushMeasuraments3.png, id=781, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments3.png Graphic file (type png)
-<use images/NAVPushMeasuraments3.png>
-Package pdftex.def Info: images/NAVPushMeasuraments3.png  used on input line 20
-7. on input line 207.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-207.
+ <./images/PLCList.png>]
+<images/PLCAssignmentList.png, id=780, 1028.34187pt x 547.2947pt>
+File: images/PLCAssignmentList.png Graphic file (type png)
+<use images/PLCAssignmentList.png>
+Package pdftex.def Info: images/PLCAssignmentList.png  used on input line 230.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1316,14 +1250,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [29
 
- <./images/NAVPushMeasuraments3.png>]
-<images/NAVFunctionList.png, id=808, 1028.34187pt x 547.2947pt>
-File: images/NAVFunctionList.png Graphic file (type png)
-<use images/NAVFunctionList.png>
-Package pdftex.def Info: images/NAVFunctionList.png  used on input line 212. on
- input line 212.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-212.
+ <./images/PLCAssignmentList.png>]
+<images/MachineParameter.png, id=807, 1028.34187pt x 547.2947pt>
+File: images/MachineParameter.png Graphic file (type png)
+<use images/MachineParameter.png>
+Package pdftex.def Info: images/MachineParameter.png  used on input line 236.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1331,14 +1263,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [30
 
- <./images/NAVFunctionList.png>]
-<images/NAVServiziWeb.png, id=835, 1028.34187pt x 547.2947pt>
-File: images/NAVServiziWeb.png Graphic file (type png)
-<use images/NAVServiziWeb.png>
-Package pdftex.def Info: images/NAVServiziWeb.png  used on input line 218. on i
-nput line 218.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-218.
+ <./images/MachineParameter.png>]
+<images/PLCReadingList.png, id=834, 1028.34187pt x 547.2947pt>
+File: images/PLCReadingList.png Graphic file (type png)
+<use images/PLCReadingList.png>
+Package pdftex.def Info: images/PLCReadingList.png  used on input line 242.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1346,14 +1276,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [31
 
- <./images/NAVServiziWeb.png>]
-<images/NAVSetMesurament.png, id=863, 1028.34187pt x 547.2947pt>
+ <./images/PLCReadingList.png>]
+<images/NAVSetMesurament.png, id=862, 1028.34187pt x 547.2947pt>
 File: images/NAVSetMesurament.png Graphic file (type png)
 <use images/NAVSetMesurament.png>
-Package pdftex.def Info: images/NAVSetMesurament.png  used on input line 223. o
-n input line 223.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-223.
+Package pdftex.def Info: images/NAVSetMesurament.png  used on input line 248.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1362,13 +1290,11 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [32
 
  <./images/NAVSetMesurament.png>]
-<images/NAVSubscriptionPage.png, id=890, 1028.34187pt x 547.2947pt>
-File: images/NAVSubscriptionPage.png Graphic file (type png)
-<use images/NAVSubscriptionPage.png>
-Package pdftex.def Info: images/NAVSubscriptionPage.png  used on input line 228
-. on input line 228.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-228.
+<images/NAVServiziWeb.png, id=889, 1028.34187pt x 547.2947pt>
+File: images/NAVServiziWeb.png Graphic file (type png)
+<use images/NAVServiziWeb.png>
+Package pdftex.def Info: images/NAVServiziWeb.png  used on input line 254.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1376,14 +1302,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [33
 
- <./images/NAVSubscriptionPage.png>]
-<images/PLCAssignmentList.png, id=917, 1028.34187pt x 547.2947pt>
-File: images/PLCAssignmentList.png Graphic file (type png)
-<use images/PLCAssignmentList.png>
-Package pdftex.def Info: images/PLCAssignmentList.png  used on input line 233. 
-on input line 233.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-233.
+ <./images/NAVServiziWeb.png>]
+<images/NAVSubscriptionPage.png, id=916, 1028.34187pt x 547.2947pt>
+File: images/NAVSubscriptionPage.png Graphic file (type png)
+<use images/NAVSubscriptionPage.png>
+Package pdftex.def Info: images/NAVSubscriptionPage.png  used on input line 260
+.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1391,14 +1316,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [34
 
- <./images/PLCAssignmentList.png>]
-<images/PLCList.png, id=944, 1028.34187pt x 547.2947pt>
-File: images/PLCList.png Graphic file (type png)
-<use images/PLCList.png>
-Package pdftex.def Info: images/PLCList.png  used on input line 238. on input l
-ine 238.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-238.
+ <./images/NAVSubscriptionPage.png>]
+<images/NAVPushMeasuraments1.png, id=943, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments1.png Graphic file (type png)
+<use images/NAVPushMeasuraments1.png>
+Package pdftex.def Info: images/NAVPushMeasuraments1.png  used on input line 26
+5.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1406,14 +1330,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [35
 
- <./images/PLCList.png>]
-<images/PLCReadingList.png, id=970, 1028.34187pt x 547.2947pt>
-File: images/PLCReadingList.png Graphic file (type png)
-<use images/PLCReadingList.png>
-Package pdftex.def Info: images/PLCReadingList.png  used on input line 243. on 
-input line 243.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-243.
+ <./images/NAVPushMeasuraments1.png>]
+<images/NAVPushMeasuraments2.png, id=970, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments2.png Graphic file (type png)
+<use images/NAVPushMeasuraments2.png>
+Package pdftex.def Info: images/NAVPushMeasuraments2.png  used on input line 27
+0.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1421,7 +1344,21 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [36
 
- <./images/PLCReadingList.png>]
+ <./images/NAVPushMeasuraments2.png>]
+<images/NAVPushMeasuraments3.png, id=996, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments3.png Graphic file (type png)
+<use images/NAVPushMeasuraments3.png>
+Package pdftex.def Info: images/NAVPushMeasuraments3.png  used on input line 27
+5.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
+
+Overfull \hbox (32.54901pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[37
+
+ <./images/NAVPushMeasuraments3.png>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1431,19 +1368,19 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19356 strings out of 493312
- 360203 string characters out of 3138908
- 431414 words of memory out of 3000000
- 22385 multiletter control sequences out of 15000+200000
+ 19363 strings out of 493305
+ 360126 string characters out of 3138853
+ 432872 words of memory out of 3000000
+ 22393 multiletter control sequences out of 15000+200000
  9054 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,800b,799s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1452,9 +1389,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (36 pages, 1879791 bytes).
+Output written on presentation.pdf (37 pages, 1887177 bytes).
 PDF statistics:
- 1031 PDF objects out of 1200 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 1060 PDF objects out of 1200 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
