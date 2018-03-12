@@ -167,29 +167,29 @@
 \begin{frame}
 \frametitle{Client per la piattaforma}
 \begin{itemize}
-	\item Sviluppato su Microsoft Dynamics NAV nonostante diverse lacune dell'ambiente
-	\begin{itemize}
-		\item Mancata possibilità di consumo diretto di servizi REST
-		\item Mancata possibilità di gestione del formato JSON
-		\item Difficoltà nell'interazione con software esterni non Microsoft
-	\end{itemize}
-	\item Risoluzione tramite sviluppo di un client C\#
-	\begin{itemize}
-		\item con chiamata dei servizi REST, serializzazione e deserializzazione del JSON
-		\item in conformità con le classi della piattaforma tramite Apache Avro
-		\item integrato poi in NAV tramite dll 
-	\end{itemize}
-	\item Sviluppo di un "setup" per impostare le chiamate ai servizi su NAV
-	\begin{itemize}
-		\item svolto mediante 2 approcci (PLC e Machine Center)
-		\item con trattamento dei dati per l'ambiente Navision
-		\item evitando di prendere valori già inseriti o errati
-	\end{itemize}
+\item Sviluppato su Microsoft Dynamics NAV nonostante diverse lacune dell'ambiente
+\begin{itemize}
+\item Mancata possibilità di consumo diretto di servizi REST
+\item Mancata possibilità di gestione del formato JSON
+\item Difficoltà nell'interazione con software esterni non Microsoft
+\end{itemize}
+\item Risoluzione tramite sviluppo di un client C\#
+\begin{itemize}
+\item con chiamata dei servizi REST, serializzazione e deserializzazione del JSON
+\item in conformità con le classi della piattaforma tramite Apache Avro
+\item integrato poi in NAV tramite dll 
+\end{itemize}
+\item Sviluppo di un "setup" per impostare le chiamate ai servizi su NAV
+\begin{itemize}
+\item svolto mediante 2 approcci (PLC e Machine Center)
+\item con trattamento dei dati per l'ambiente Navision
+\item evitando di prendere valori già inseriti o errati
+\end{itemize}
 
-	\item Interazione con il servizio di sottoscrizione nell'ambiente NAV
-	\begin{itemize}
-		\item tramite esternazione di una codeunit come webservice SOAP
-	\end{itemize}
+\item Interazione con il servizio di sottoscrizione nell'ambiente NAV
+\begin{itemize}
+\item tramite esternazione di una codeunit come web service SOAP
+\end{itemize}
 \end{itemize}
 \end{frame}
 \begin{frame}
@@ -208,7 +208,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Ambiente di sviluppo NAV}
+\frametitle{Ambiente di sviluppo (C/SIDE) NAV}
 \includegraphics[width=1\textwidth]{images/NAVDevelopmentEnvironment.png}
 \end{frame}
 
@@ -235,6 +235,12 @@
 \includegraphics[width=1\textwidth]{images/MachineParameter.png}
 \end{frame}
 
+\begin{frame}
+\frametitle{Pagina del token}
+\includegraphics[width=1\textwidth]{images/tokenpage.png}
+\end{frame}
+
+
 
 \begin{frame}
 \frametitle{PLC Reading List}
@@ -260,17 +266,17 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Metodo PushMeasurament 1}
+\frametitle{Metodo PushMeasurement 1}
 \includegraphics[width=1\textwidth]{images/NAVPushMeasuraments1.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Metodo PushMeasurament 2}
+\frametitle{Metodo PushMeasurement 2}
 \includegraphics[width=1\textwidth]{images/NAVPushMeasuraments2.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Metodo PushMeasurament 3}
+\frametitle{Metodo PushMeasurement 3}
 \includegraphics[width=1\textwidth]{images/NAVPushMeasuraments3.png}
 \end{frame}
 
