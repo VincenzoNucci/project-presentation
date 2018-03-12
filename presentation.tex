@@ -2,55 +2,60 @@
 \usetheme{Boadilla}
 \usepackage[utf8x]{inputenc}
 \usepackage{listings}
+\usepackage{subfig}
 \title{LS IoT Platform}
 \subtitle{Piattaforma per il monitoraggio di macchine utensili con integrazione a software ERP Microsoft Dynamics NAV}
 \author{Vincenzo Nucci e Matteo Tiberi}
 %\author{Matteo Tiberi}
 \institute{Università di Camerino}
-
+\date{}
 \begin{document}
+	
 	\begin{frame}
-	\titlepage
+	\centering
+	\includegraphics[scale=0.7]{images/stemma.png}\par
+	\usebeamertemplate{title page}
 \end{frame}
+
 
 \begin{frame}
 \frametitle{LS IoT Platform}
 \begin{itemize}
-	\item espone servizi REST per letture di sensori
+	\item Espone servizi REST per letture di sensori
 	\begin{itemize}
-		\item ultima lettura di un sensore
-		\item letture di una certa settimana
-		\item letture di un certo mese
-		\item letture di determinati campi dei sensori
+		\item Ultima lettura di un sensore
+		\item Letture di una certa settimana
+		\item Letture di un certo mese
+		\item Letture di determinati campi dei sensori
 	\end{itemize}
-	\item servizio di sottoscrizione con notifiche PUSH
+	\item Servizio di sottoscrizione con notifiche PUSH
 	\begin{itemize}
-		\item debolmente accoppiato grazie ad Apache ActiveMQ
+		\item Debolmente accoppiato grazie ad Apache ActiveMQ
 	\end{itemize}
-	\item integrazione della sottoscrizione con Microsoft Dynamics NAV
+	\item Integra il servizio di sottoscrizione con Dynamics NAV
 	\begin{itemize}
-		\item utilizzo dei web services SOAP offerti da NAV
+		\item Utilizzo dei web services SOAP offerti da NAV
 	\end{itemize}
-	\item indipendente da sorgenti dati e formato dei dati
+	\item Indipendente da sorgenti dati e formato dei dati
 	\begin{itemize}
-		\item grazie alle interfacce e Apache Avro
+		\item Grazie alle interfacce e Apache Avro
 	\end{itemize}
-	\item interfaccia web
+	\item Interfaccia web
 	\begin{itemize}
-		\item pagina per la registrazione delle applicaizoni
-		\item pagina per la gestione delle richieste
-		\item pagina per la gestione dei servizi attivi per gli utenti
+		\item Pagina per la registrazione delle applicazioni
+		\item Pagina per la gestione delle richieste
+		\item Pagina per la gestione dei servizi attivi per gli utenti
 	\end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Pagina web di richiesta token}
+\frametitle{Pagina web richiesta token}
 \includegraphics[width=1\textwidth]{images/RequestPagePlatform.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Richieste database}
+\frametitle{Gestione delle richieste nel database}
 \includegraphics[width=1\textwidth]{images/DBPlatform2.png}
 \end{frame}
 
@@ -75,29 +80,29 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Risposta chiamata getlastmeasure}
+\frametitle{Valori di ritorno di getlastmeasure}
 \includegraphics[width=1\textwidth]{images/Postman1.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Smart Object Page}
+\frametitle{Pagina catalogo Smart Object}
 \includegraphics[width=1\textwidth]{images/SmartObjectsPlatform.png}
 \end{frame}
 
 \begin{frame}
 \frametitle{Subscribe Rule}
 \begin{itemize}
-\item messaggio json da inviare per usare il servizio push
-\item l'utente specifica la condizione
+\item Messaggio JSON che il servizio di sottoscrizione si aspetta di ricevere
+\item L'utente specifica la condizione
 \begin{itemize}
-\item nome e IP applicazione
-\item coda o topic activemq
-\item subscribe rule
+\item Nome e IP applicazione
+\item Coda o topic di ActiveMQ
+\item Subscribe Rule
 \begin{itemize}
-\item nome tabella da interrogare
-\item lista dei campi da monitorarne i cambiamenti
-\item espressione CRON
-\item clausola where
+\item Nome tabella da interrogare
+\item Lista dei campi dei quali monitorarne i cambiamenti
+\item Espressione CRON
+\item Clausola where
 
 \end{itemize}
 \end{itemize}
@@ -107,13 +112,13 @@
 \begin{frame}
 \frametitle{Clausola where}
 \begin{itemize}
-\item condition
+\item Condition
 \begin{itemize}
-\item insieme di oggetti avro annidati
+\item insieme di oggetti Avro annidati
 \end{itemize}
-\item formula
+\item Formula
 \begin{itemize}
-\item semplice stringa (per NAV)
+\item Semplice stringa (per NAV)
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -124,22 +129,34 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Subscriberule di una applicazione}
+\frametitle{Subscribe Rule di una applicazione}
 \includegraphics[width=0.6\textwidth]{images/subscribe-json-1.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Regole nel database}
+\frametitle{Schema Avro Subscribe Rule di una applicazione}
+\begin{figure}%
+	\centering
+	\subfloat{{\includegraphics[width=5cm]{images/subscribe-rule-1.png} }}%
+	\qquad
+	\subfloat{{\includegraphics[width=5cm]{images/subscribe-rule-2.png} }}%
+	%
+	%
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Gestione delle regole nel database}
 \includegraphics[width=1\textwidth]{images/DBPlatform1.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Schema JSON Subscribe di NAV}
+\frametitle{Schema JSON Subscribe Rule di NAV}
 \includegraphics[width=0.6\textwidth]{images/subscribe-json-2.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Class Diagram Subscribe Rule Interface}
+\frametitle{Class Diagram SubscribeRuleInterface}
 \includegraphics[width=1\textwidth]{images/ClassDiagram7.png}
 \end{frame}
 
@@ -154,7 +171,24 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{metodo di popolamento dati json}
+\frametitle{Schema Avro SensorData}
+\begin{figure}%
+	\centering
+	\subfloat{{\includegraphics[width=5cm]{images/sensordata1.png} }}%
+	\qquad
+	\subfloat{{\includegraphics[width=5cm]{images/sensordata2.png} }}%
+	%
+	%
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Schema Avro SensorDataAnnotation}
+\includegraphics[width=0.6\textwidth]{images/sensordataannotation.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Estratto di getDataFromDbToSensorList}
 \includegraphics[width=1\textwidth]{images/popolamento-json.png}
 \end{frame}
 
@@ -279,18 +313,5 @@
 \frametitle{Metodo PushMeasurement 3}
 \includegraphics[width=1\textwidth]{images/NAVPushMeasuraments3.png}
 \end{frame}
-
-
-
-
-
-
-\subsection{sub b}
-
-
-
-
-
-
 
 \end{document}
