@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.28)  14 MAR 2018 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.28)  14 MAR 2018 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,7 +1531,7 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [42
 
  <./images/NAVSubscriptionPage.png>]
-<images/NAVPushMeasuraments1.png, id=1173, 1028.34187pt x 547.2947pt>
+<images/NAVPushMeasuraments1.png, id=1174, 1028.34187pt x 547.2947pt>
 File: images/NAVPushMeasuraments1.png Graphic file (type png)
 
 <use images/NAVPushMeasuraments1.png>
@@ -1546,7 +1546,7 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [43
 
  <./images/NAVPushMeasuraments1.png>]
-<images/NAVPushMeasuraments2.png, id=1200, 1028.34187pt x 547.2947pt>
+<images/NAVPushMeasuraments2.png, id=1202, 1028.34187pt x 547.2947pt>
 File: images/NAVPushMeasuraments2.png Graphic file (type png)
 
 <use images/NAVPushMeasuraments2.png>
@@ -1561,7 +1561,7 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [44
 
  <./images/NAVPushMeasuraments2.png>]
-<images/NAVPushMeasuraments3.png, id=1228, 1028.34187pt x 547.2947pt>
+<images/NAVPushMeasuraments3.png, id=1229, 1028.34187pt x 547.2947pt>
 File: images/NAVPushMeasuraments3.png Graphic file (type png)
 
 <use images/NAVPushMeasuraments3.png>
@@ -1599,10 +1599,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20652 strings out of 492995
- 383144 string characters out of 6136402
+ 20656 strings out of 492995
+ 383176 string characters out of 6136402
  459054 words of memory out of 5000000
- 23633 multiletter control sequences out of 15000+600000
+ 23637 multiletter control sequences out of 15000+600000
  8754 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,799b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1611,7 +1611,7 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (45 pages, 2014950 bytes).
+Output written on presentation.pdf (45 pages, 2014969 bytes).
 PDF statistics:
  1296 PDF objects out of 1440 (max. 8388607)
  1179 compressed objects within 12 object streams
