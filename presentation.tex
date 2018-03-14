@@ -38,7 +38,7 @@
 	\end{itemize}
 	\item Indipendente da sorgenti dati e formato dei dati
 	\begin{itemize}
-		\item Grazie alle interfacce e Apache Avro
+		\item Grazie a classi astratte, interfacce e Apache Avro
 	\end{itemize}
 	\item Interfaccia web
 	\begin{itemize}
@@ -47,6 +47,16 @@
 		\item Pagina per la gestione dei servizi attivi per gli utenti
 	\end{itemize}
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Architettura piattaforma}
+\includegraphics[width=0.9\textwidth]{images/architettura_piattaforma.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Struttura tabelle backend}
+\includegraphics[width=1\textwidth]{images/tabelle-backend.png}
 \end{frame}
 
 \begin{frame}
@@ -97,7 +107,7 @@
 \begin{itemize}
 \item Nome e IP applicazione
 \item Coda o topic di ActiveMQ
-\item Subscribe Rule
+\item Rule Record
 \begin{itemize}
 \item Nome tabella da interrogare
 \item Lista dei campi dei quali monitorarne i cambiamenti
@@ -125,7 +135,7 @@
 
 \begin{frame}
 \frametitle{Albero della condition}
-\includegraphics[width=1\textwidth]{images/struttura-query-tree.png}
+\includegraphics[width=1\textwidth]{images/strutturaquerytree.png}
 \end{frame}
 
 \begin{frame}
@@ -157,7 +167,7 @@
 
 \begin{frame}
 \frametitle{Class Diagram SubscribeRuleInterface}
-\includegraphics[width=1\textwidth]{images/ClassDiagram7.png}
+\includegraphics[width=1\textwidth]{images/figura10.png}
 \end{frame}
 
 \begin{frame}

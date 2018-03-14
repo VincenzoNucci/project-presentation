@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.27)  12 MAR 2018 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  13 MAR 2018 13:25
 entering extended mode
 **./presentation.tex
 (presentation.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
 (C:\Users\PC\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemodes.sty
@@ -118,7 +118,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
@@ -344,7 +344,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -367,7 +367,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -399,54 +399,52 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count120
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count121
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4374.
-Package hyperref Info: Option `implicit' set `false' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `implicit' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count122
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen164
 \Fld@menulength=\count123
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count124
 
 
 Package hyperref Message: Stopped early.
 
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count125
 \c@bookmark@seq@number=\count126
 
@@ -629,7 +627,7 @@ LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks37
 \thm@bodyfont=\toks38
 \thm@headfont=\toks39
@@ -939,10 +937,8 @@ Overfull \hbox (32.54901pt too wide) in paragraph at lines 12--12
 <images/stemma.png, id=13, 83.3514pt x 103.587pt>
 File: images/stemma.png Graphic file (type png)
 <use images/stemma.png>
-Package pdftex.def Info: images/stemma.png  used on input line 18. on input lin
-e 18.
-Package pdftex.def Info: Requested size: 58.34555pt x 72.51039pt on input line 
-18.
+Package pdftex.def Info: images/stemma.png  used on input line 18.
+(pdftex.def)             Requested size: 58.34555pt x 72.51039pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -974,13 +970,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 [2
 
 ]
-<images/RequestPagePlatform.png, id=75, 987.69pt x 578.16pt>
-File: images/RequestPagePlatform.png Graphic file (type png)
-<use images/RequestPagePlatform.png>
-Package pdftex.def Info: images/RequestPagePlatform.png  used on input line 55.
- on input line 55.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.36525pt on input line
- 55.
+<images/architettura_piattaforma.png, id=75, 588.1975pt x 444.66125pt>
+File: images/architettura_piattaforma.png Graphic file (type png)
+<use images/architettura_piattaforma.png>
+Package pdftex.def Info: images/architettura_piattaforma.png  used on input lin
+e 55.
+(pdftex.def)             Requested size: 308.06367pt x 232.8875pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -988,14 +983,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [3
 
- <./images/RequestPagePlatform.png>]
-<images/DBPlatform2.png, id=102, 674.52pt x 413.29407pt>
-File: images/DBPlatform2.png Graphic file (type png)
-<use images/DBPlatform2.png>
-Package pdftex.def Info: images/DBPlatform2.png  used on input line 60. on inpu
-t line 60.
-Package pdftex.def Info: Requested size: 342.2953pt x 209.73663pt on input line
- 60.
+ <./images/architettura_piattaforma.png>]
+<images/tabelle-backend.png, id=102, 953.5625pt x 375.4025pt>
+File: images/tabelle-backend.png Graphic file (type png)
+<use images/tabelle-backend.png>
+Package pdftex.def Info: images/tabelle-backend.png  used on input line 60.
+(pdftex.def)             Requested size: 342.2953pt x 134.75528pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1003,14 +996,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [4
 
- <./images/DBPlatform2.png>]
-<images/managePagePlatform.png, id=129, 987.69pt x 578.16pt>
-File: images/managePagePlatform.png Graphic file (type png)
-<use images/managePagePlatform.png>
-Package pdftex.def Info: images/managePagePlatform.png  used on input line 65. 
-on input line 65.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.36525pt on input line
- 65.
+ <./images/tabelle-backend.png>]
+<images/RequestPagePlatform.png, id=129, 987.69pt x 578.16pt>
+File: images/RequestPagePlatform.png Graphic file (type png)
+<use images/RequestPagePlatform.png>
+Package pdftex.def Info: images/RequestPagePlatform.png  used on input line 65.
+
+(pdftex.def)             Requested size: 342.2953pt x 200.36525pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1018,14 +1010,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [5
 
- <./images/managePagePlatform.png>]
-<images/DBPlatform3.png, id=156, 674.52pt x 414.04688pt>
-File: images/DBPlatform3.png Graphic file (type png)
-<use images/DBPlatform3.png>
-Package pdftex.def Info: images/DBPlatform3.png  used on input line 70. on inpu
-t line 70.
-Package pdftex.def Info: Requested size: 342.2953pt x 210.11865pt on input line
- 70.
+ <./images/RequestPagePlatform.png>]
+<images/DBPlatform2.png, id=156, 674.52pt x 413.29407pt>
+File: images/DBPlatform2.png Graphic file (type png)
+<use images/DBPlatform2.png>
+Package pdftex.def Info: images/DBPlatform2.png  used on input line 70.
+(pdftex.def)             Requested size: 342.2953pt x 209.73663pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1033,14 +1023,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [6
 
- <./images/DBPlatform3.png>]
-<images/UserSubscriptionsPlatform.png, id=183, 1028.34187pt x 554.07pt>
-File: images/UserSubscriptionsPlatform.png Graphic file (type png)
-<use images/UserSubscriptionsPlatform.png>
-Package pdftex.def Info: images/UserSubscriptionsPlatform.png  used on input li
-ne 75. on input line 75.
-Package pdftex.def Info: Requested size: 342.2953pt x 184.43309pt on input line
- 75.
+ <./images/DBPlatform2.png>]
+<images/managePagePlatform.png, id=183, 987.69pt x 578.16pt>
+File: images/managePagePlatform.png Graphic file (type png)
+<use images/managePagePlatform.png>
+Package pdftex.def Info: images/managePagePlatform.png  used on input line 75.
+(pdftex.def)             Requested size: 342.2953pt x 200.36525pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1048,14 +1036,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [7
 
- <./images/UserSubscriptionsPlatform.png>]
-<images/getlastmeasure.png, id=211, 636.12656pt x 374.14781pt>
-File: images/getlastmeasure.png Graphic file (type png)
-<use images/getlastmeasure.png>
-Package pdftex.def Info: images/getlastmeasure.png  used on input line 80. on i
-nput line 80.
-Package pdftex.def Info: Requested size: 342.2953pt x 201.32317pt on input line
- 80.
+ <./images/managePagePlatform.png>]
+<images/DBPlatform3.png, id=211, 674.52pt x 414.04688pt>
+File: images/DBPlatform3.png Graphic file (type png)
+<use images/DBPlatform3.png>
+Package pdftex.def Info: images/DBPlatform3.png  used on input line 80.
+(pdftex.def)             Requested size: 342.2953pt x 210.11865pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1063,14 +1049,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [8
 
- <./images/getlastmeasure.png>]
-<images/Postman1.png, id=238, 739.26187pt x 447.92343pt>
-File: images/Postman1.png Graphic file (type png)
-<use images/Postman1.png>
-Package pdftex.def Info: images/Postman1.png  used on input line 85. on input l
-ine 85.
-Package pdftex.def Info: Requested size: 342.2953pt x 207.40056pt on input line
- 85.
+ <./images/DBPlatform3.png>]
+<images/UserSubscriptionsPlatform.png, id=238, 1028.34187pt x 554.07pt>
+File: images/UserSubscriptionsPlatform.png Graphic file (type png)
+<use images/UserSubscriptionsPlatform.png>
+Package pdftex.def Info: images/UserSubscriptionsPlatform.png  used on input li
+ne 85.
+(pdftex.def)             Requested size: 342.2953pt x 184.43309pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1078,14 +1063,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [9
 
- <./images/Postman1.png>]
-<images/SmartObjectsPlatform.png, id=265, 987.69pt x 577.40718pt>
-File: images/SmartObjectsPlatform.png Graphic file (type png)
-<use images/SmartObjectsPlatform.png>
-Package pdftex.def Info: images/SmartObjectsPlatform.png  used on input line 90
-. on input line 90.
-Package pdftex.def Info: Requested size: 342.2953pt x 200.10437pt on input line
- 90.
+ <./images/UserSubscriptionsPlatform.png>]
+<images/getlastmeasure.png, id=265, 636.12656pt x 374.14781pt>
+File: images/getlastmeasure.png Graphic file (type png)
+<use images/getlastmeasure.png>
+Package pdftex.def Info: images/getlastmeasure.png  used on input line 90.
+(pdftex.def)             Requested size: 342.2953pt x 201.32317pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1093,65 +1076,54 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [10
 
- <./images/SmartObjectsPlatform.png>]
+ <./images/getlastmeasure.png>]
+<images/Postman1.png, id=292, 739.26187pt x 447.92343pt>
+File: images/Postman1.png Graphic file (type png)
+<use images/Postman1.png>
+Package pdftex.def Info: images/Postman1.png  used on input line 95.
+(pdftex.def)             Requested size: 342.2953pt x 207.40056pt.
+
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [11
 
-]
+ <./images/Postman1.png>]
+<images/SmartObjectsPlatform.png, id=319, 987.69pt x 577.40718pt>
+File: images/SmartObjectsPlatform.png Graphic file (type png)
+<use images/SmartObjectsPlatform.png>
+Package pdftex.def Info: images/SmartObjectsPlatform.png  used on input line 10
+0.
+(pdftex.def)             Requested size: 342.2953pt x 200.10437pt.
+
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [12
 
-]
-<images/struttura-query-tree.png, id=345, 1365.1pt x 648.4225pt>
-File: images/struttura-query-tree.png Graphic file (type png)
-<use images/struttura-query-tree.png>
-Package pdftex.def Info: images/struttura-query-tree.png  used on input line 12
-9. on input line 129.
-Package pdftex.def Info: Requested size: 342.2953pt x 162.59003pt on input line
- 129.
-
+ <./images/SmartObjectsPlatform.png>]
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [13
 
- <./images/struttura-query-tree.png>]
-<images/subscribe-json-1.png, id=373, 368.87813pt x 392.21532pt>
-File: images/subscribe-json-1.png Graphic file (type png)
-<use images/subscribe-json-1.png>
-Package pdftex.def Info: images/subscribe-json-1.png  used on input line 134. o
-n input line 134.
-Package pdftex.def Info: Requested size: 205.37926pt x 218.37032pt on input lin
-e 134.
-
+]
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [14
 
- <./images/subscribe-json-1.png>]
-<images/subscribe-rule-1.png, id=400, 445.665pt x 554.07pt>
-File: images/subscribe-rule-1.png Graphic file (type png)
-<use images/subscribe-rule-1.png>
-Package pdftex.def Info: images/subscribe-rule-1.png  used on input line 146. o
-n input line 146.
-Package pdftex.def Info: Requested size: 142.26378pt x 176.8664pt on input line
- 146.
-<images/subscribe-rule-2.png, id=401, 624.83438pt x 578.16pt>
-File: images/subscribe-rule-2.png Graphic file (type png)
-<use images/subscribe-rule-2.png>
-Package pdftex.def Info: images/subscribe-rule-2.png  used on input line 146. o
-n input line 146.
-Package pdftex.def Info: Requested size: 142.26378pt x 131.63306pt on input lin
-e 146.
+]
+<images/strutturaquerytree.png, id=400, 1369.115pt x 649.42625pt>
+File: images/strutturaquerytree.png Graphic file (type png)
+<use images/strutturaquerytree.png>
+Package pdftex.def Info: images/strutturaquerytree.png  used on input line 139.
+
+(pdftex.def)             Requested size: 342.2953pt x 162.36607pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1159,14 +1131,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [15
 
- <./images/subscribe-rule-1.png> <./images/subscribe-rule-2.png>]
-<images/DBPlatform1.png, id=428, 968.86969pt x 484.05844pt>
-File: images/DBPlatform1.png Graphic file (type png)
-<use images/DBPlatform1.png>
-Package pdftex.def Info: images/DBPlatform1.png  used on input line 151. on inp
-ut line 151.
-Package pdftex.def Info: Requested size: 342.2953pt x 171.01839pt on input line
- 151.
+ <./images/strutturaquerytree.png>]
+<images/subscribe-json-1.png, id=427, 352.31625pt x 380.17032pt>
+File: images/subscribe-json-1.png Graphic file (type png)
+<use images/subscribe-json-1.png>
+Package pdftex.def Info: images/subscribe-json-1.png  used on input line 144.
+(pdftex.def)             Requested size: 205.37926pt x 221.61272pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1174,14 +1144,17 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [16
 
- <./images/DBPlatform1.png>]
-<images/subscribe-json-2.png, id=455, 210.7875pt x 197.98969pt>
-File: images/subscribe-json-2.png Graphic file (type png)
-<use images/subscribe-json-2.png>
-Package pdftex.def Info: images/subscribe-json-2.png  used on input line 156. o
-n input line 156.
-Package pdftex.def Info: Requested size: 205.37926pt x 192.91379pt on input lin
-e 156.
+ <./images/subscribe-json-1.png>]
+<images/subscribe-rule-1.png, id=454, 427.5975pt x 578.16pt>
+File: images/subscribe-rule-1.png Graphic file (type png)
+<use images/subscribe-rule-1.png>
+Package pdftex.def Info: images/subscribe-rule-1.png  used on input line 156.
+(pdftex.def)             Requested size: 142.26378pt x 192.35487pt.
+<images/subscribe-rule-2.png, id=455, 607.51968pt x 574.39594pt>
+File: images/subscribe-rule-2.png Graphic file (type png)
+<use images/subscribe-rule-2.png>
+Package pdftex.def Info: images/subscribe-rule-2.png  used on input line 156.
+(pdftex.def)             Requested size: 142.26378pt x 134.501pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1189,14 +1162,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [17
 
- <./images/subscribe-json-2.png>]
-<images/ClassDiagram7.png, id=482, 914.66719pt x 398.99063pt>
-File: images/ClassDiagram7.png Graphic file (type png)
-<use images/ClassDiagram7.png>
-Package pdftex.def Info: images/ClassDiagram7.png  used on input line 161. on i
-nput line 161.
-Package pdftex.def Info: Requested size: 342.2953pt x 149.31062pt on input line
- 161.
+ <./images/subscribe-rule-1.png> <./images/subscribe-rule-2.png>]
+<images/DBPlatform1.png, id=482, 968.86969pt x 484.05844pt>
+File: images/DBPlatform1.png Graphic file (type png)
+<use images/DBPlatform1.png>
+Package pdftex.def Info: images/DBPlatform1.png  used on input line 161.
+(pdftex.def)             Requested size: 342.2953pt x 171.01839pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1204,14 +1175,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [18
 
- <./images/ClassDiagram7.png>]
-<images/ClassDiagram2.png, id=509, 934.24031pt x 398.23781pt>
-File: images/ClassDiagram2.png Graphic file (type png)
-<use images/ClassDiagram2.png>
-Package pdftex.def Info: images/ClassDiagram2.png  used on input line 166. on i
-nput line 166.
-Package pdftex.def Info: Requested size: 342.2953pt x 145.91159pt on input line
- 166.
+ <./images/DBPlatform1.png>]
+<images/subscribe-json-2.png, id=509, 210.7875pt x 197.98969pt>
+File: images/subscribe-json-2.png Graphic file (type png)
+<use images/subscribe-json-2.png>
+Package pdftex.def Info: images/subscribe-json-2.png  used on input line 166.
+(pdftex.def)             Requested size: 205.37926pt x 192.91379pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1219,14 +1188,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [19
 
- <./images/ClassDiagram2.png>]
-<images/ClassDiagram1.png, id=537, 882.29625pt x 387.69844pt>
-File: images/ClassDiagram1.png Graphic file (type png)
-<use images/ClassDiagram1.png>
-Package pdftex.def Info: images/ClassDiagram1.png  used on input line 171. on i
-nput line 171.
-Package pdftex.def Info: Requested size: 342.2953pt x 150.40906pt on input line
- 171.
+ <./images/subscribe-json-2.png>]
+<images/figura10.png, id=537, 917.67844pt x 380.92313pt>
+File: images/figura10.png Graphic file (type png)
+<use images/figura10.png>
+Package pdftex.def Info: images/figura10.png  used on input line 171.
+(pdftex.def)             Requested size: 342.2953pt x 142.08438pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1234,25 +1201,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [20
 
- <./images/ClassDiagram1.png>]
-<images/sensordata1.png, id=564, 319.94531pt x 526.96875pt>
-File: images/sensordata1.png Graphic file (type png)
-<use images/sensordata1.png>
-Package pdftex.def Info: images/sensordata1.png  used on input line 183. on inp
-ut line 183.
-Package pdftex.def Info: Requested size: 142.26378pt x 234.31943pt on input lin
-e 183.
-<images/sensordata2.png, id=565, 435.12563pt x 571.38469pt>
-File: images/sensordata2.png Graphic file (type png)
-<use images/sensordata2.png>
-Package pdftex.def Info: images/sensordata2.png  used on input line 183. on inp
-ut line 183.
-Package pdftex.def Info: Requested size: 142.26378pt x 186.8138pt on input line
- 183.
-
-Overfull \vbox (19.71294pt too high) detected at line 183
- []
-
+ <./images/figura10.png>]
+<images/ClassDiagram2.png, id=564, 934.24031pt x 398.23781pt>
+File: images/ClassDiagram2.png Graphic file (type png)
+<use images/ClassDiagram2.png>
+Package pdftex.def Info: images/ClassDiagram2.png  used on input line 176.
+(pdftex.def)             Requested size: 342.2953pt x 145.91159pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1260,18 +1214,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [21
 
- <./images/sensordata1.png> <./images/sensordata2.png>]
-<images/sensordataannotation.png, id=592, 292.84406pt x 380.92313pt>
-File: images/sensordataannotation.png Graphic file (type png)
-<use images/sensordataannotation.png>
-Package pdftex.def Info: images/sensordataannotation.png  used on input line 18
-8. on input line 188.
-Package pdftex.def Info: Requested size: 205.37926pt x 267.16167pt on input lin
-e 188.
-
-Overfull \vbox (30.55518pt too high) detected at line 188
- []
-
+ <./images/ClassDiagram2.png>]
+<images/ClassDiagram1.png, id=591, 882.29625pt x 387.69844pt>
+File: images/ClassDiagram1.png Graphic file (type png)
+<use images/ClassDiagram1.png>
+Package pdftex.def Info: images/ClassDiagram1.png  used on input line 181.
+(pdftex.def)             Requested size: 342.2953pt x 150.40906pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1279,14 +1227,21 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [22
 
- <./images/sensordataannotation.png>]
-<images/popolamento-json.png, id=619, 794.2172pt x 380.92313pt>
-File: images/popolamento-json.png Graphic file (type png)
-<use images/popolamento-json.png>
-Package pdftex.def Info: images/popolamento-json.png  used on input line 193. o
-n input line 193.
-Package pdftex.def Info: Requested size: 342.2953pt x 164.17735pt on input line
- 193.
+ <./images/ClassDiagram1.png>]
+<images/sensordata1.png, id=618, 319.94531pt x 526.96875pt>
+File: images/sensordata1.png Graphic file (type png)
+<use images/sensordata1.png>
+Package pdftex.def Info: images/sensordata1.png  used on input line 193.
+(pdftex.def)             Requested size: 142.26378pt x 234.31943pt.
+<images/sensordata2.png, id=619, 435.12563pt x 571.38469pt>
+File: images/sensordata2.png Graphic file (type png)
+<use images/sensordata2.png>
+Package pdftex.def Info: images/sensordata2.png  used on input line 193.
+(pdftex.def)             Requested size: 142.26378pt x 186.8138pt.
+
+Overfull \vbox (19.71294pt too high) detected at line 193
+ []
+
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1294,14 +1249,17 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [23
 
- <./images/popolamento-json.png>]
-<images/main.png, id=646, 597.73312pt x 400.49625pt>
-File: images/main.png Graphic file (type png)
-<use images/main.png>
-Package pdftex.def Info: images/main.png  used on input line 198. on input line
- 198.
-Package pdftex.def Info: Requested size: 342.2953pt x 229.34856pt on input line
- 198.
+ <./images/sensordata1.png> <./images/sensordata2.png>]
+<images/sensordataannotation.png, id=646, 292.84406pt x 380.92313pt>
+File: images/sensordataannotation.png Graphic file (type png)
+<use images/sensordataannotation.png>
+Package pdftex.def Info: images/sensordataannotation.png  used on input line 19
+8.
+(pdftex.def)             Requested size: 205.37926pt x 267.16167pt.
+
+Overfull \vbox (30.55518pt too high) detected at line 198
+ []
+
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1309,21 +1267,25 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [24
 
- <./images/main.png>]
+ <./images/sensordataannotation.png>]
+<images/popolamento-json.png, id=673, 794.2172pt x 380.92313pt>
+File: images/popolamento-json.png Graphic file (type png)
+<use images/popolamento-json.png>
+Package pdftex.def Info: images/popolamento-json.png  used on input line 203.
+(pdftex.def)             Requested size: 342.2953pt x 164.17735pt.
+
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [25
 
-]
-<images/NAVClient.png, id=700, 1028.34187pt x 547.2947pt>
-File: images/NAVClient.png Graphic file (type png)
-<use images/NAVClient.png>
-Package pdftex.def Info: images/NAVClient.png  used on input line 232. on input
- line 232.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-232.
+ <./images/popolamento-json.png>]
+<images/main.png, id=701, 597.73312pt x 400.49625pt>
+File: images/main.png Graphic file (type png)
+<use images/main.png>
+Package pdftex.def Info: images/main.png  used on input line 208.
+(pdftex.def)             Requested size: 342.2953pt x 229.34856pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1331,29 +1293,19 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [26
 
- <./images/NAVClient.png>]
-<images/ClassDiagramParte1.png, id=727, 419.166pt x 406.1574pt>
-File: images/ClassDiagramParte1.png Graphic file (type png)
-<use images/ClassDiagramParte1.png>
-Package pdftex.def Info: images/ClassDiagramParte1.png  used on input line 237.
- on input line 237.
-Package pdftex.def Info: Requested size: 205.37926pt x 199.00647pt on input lin
-e 237.
-
+ <./images/main.png>]
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [27
 
- <./images/ClassDiagramParte1.png>]
-<images/ClassDiagramParte2.png, id=755, 388.3308pt x 406.1574pt>
-File: images/ClassDiagramParte2.png Graphic file (type png)
-<use images/ClassDiagramParte2.png>
-Package pdftex.def Info: images/ClassDiagramParte2.png  used on input line 242.
- on input line 242.
-Package pdftex.def Info: Requested size: 205.37926pt x 214.80377pt on input lin
-e 242.
+]
+<images/NAVClient.png, id=754, 1028.34187pt x 547.2947pt>
+File: images/NAVClient.png Graphic file (type png)
+<use images/NAVClient.png>
+Package pdftex.def Info: images/NAVClient.png  used on input line 242.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1361,14 +1313,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [28
 
- <./images/ClassDiagramParte2.png>]
-<images/NAVDevelopmentEnvironment.png, id=783, 1022.31938pt x 548.0475pt>
-File: images/NAVDevelopmentEnvironment.png Graphic file (type png)
-<use images/NAVDevelopmentEnvironment.png>
-Package pdftex.def Info: images/NAVDevelopmentEnvironment.png  used on input li
-ne 247. on input line 247.
-Package pdftex.def Info: Requested size: 342.2953pt x 183.49878pt on input line
- 247.
+ <./images/NAVClient.png>]
+<images/ClassDiagramParte1.png, id=781, 419.166pt x 406.1574pt>
+File: images/ClassDiagramParte1.png Graphic file (type png)
+<use images/ClassDiagramParte1.png>
+Package pdftex.def Info: images/ClassDiagramParte1.png  used on input line 247.
+
+(pdftex.def)             Requested size: 205.37926pt x 199.00647pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1376,14 +1327,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [29
 
- <./images/NAVDevelopmentEnvironment.png>]
-<images/NAVFunctionList.png, id=810, 1028.34187pt x 547.2947pt>
-File: images/NAVFunctionList.png Graphic file (type png)
-<use images/NAVFunctionList.png>
-Package pdftex.def Info: images/NAVFunctionList.png  used on input line 253. on
- input line 253.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-253.
+ <./images/ClassDiagramParte1.png>]
+<images/ClassDiagramParte2.png, id=809, 388.3308pt x 406.1574pt>
+File: images/ClassDiagramParte2.png Graphic file (type png)
+<use images/ClassDiagramParte2.png>
+Package pdftex.def Info: images/ClassDiagramParte2.png  used on input line 252.
+
+(pdftex.def)             Requested size: 205.37926pt x 214.80377pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1391,14 +1341,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [30
 
- <./images/NAVFunctionList.png>]
-<images/PLCList.png, id=837, 1028.34187pt x 547.2947pt>
-File: images/PLCList.png Graphic file (type png)
-<use images/PLCList.png>
-Package pdftex.def Info: images/PLCList.png  used on input line 259. on input l
-ine 259.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-259.
+ <./images/ClassDiagramParte2.png>]
+<images/NAVDevelopmentEnvironment.png, id=837, 1022.31938pt x 548.0475pt>
+File: images/NAVDevelopmentEnvironment.png Graphic file (type png)
+<use images/NAVDevelopmentEnvironment.png>
+Package pdftex.def Info: images/NAVDevelopmentEnvironment.png  used on input li
+ne 257.
+(pdftex.def)             Requested size: 342.2953pt x 183.49878pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1406,14 +1355,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [31
 
- <./images/PLCList.png>]
-<images/PLCAssignmentList.png, id=865, 1028.34187pt x 547.2947pt>
-File: images/PLCAssignmentList.png Graphic file (type png)
-<use images/PLCAssignmentList.png>
-Package pdftex.def Info: images/PLCAssignmentList.png  used on input line 264. 
-on input line 264.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-264.
+ <./images/NAVDevelopmentEnvironment.png>]
+<images/NAVFunctionList.png, id=865, 1028.34187pt x 547.2947pt>
+File: images/NAVFunctionList.png Graphic file (type png)
+<use images/NAVFunctionList.png>
+Package pdftex.def Info: images/NAVFunctionList.png  used on input line 263.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1421,14 +1368,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [32
 
- <./images/PLCAssignmentList.png>]
-<images/MachineParameter.png, id=892, 1028.34187pt x 547.2947pt>
-File: images/MachineParameter.png Graphic file (type png)
-<use images/MachineParameter.png>
-Package pdftex.def Info: images/MachineParameter.png  used on input line 270. o
-n input line 270.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-270.
+ <./images/NAVFunctionList.png>]
+<images/PLCList.png, id=892, 1028.34187pt x 547.2947pt>
+File: images/PLCList.png Graphic file (type png)
+<use images/PLCList.png>
+Package pdftex.def Info: images/PLCList.png  used on input line 269.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1436,14 +1381,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [33
 
- <./images/MachineParameter.png>]
-<images/tokenpage.png, id=919, 1028.34187pt x 547.2947pt>
-File: images/tokenpage.png Graphic file (type png)
-<use images/tokenpage.png>
-Package pdftex.def Info: images/tokenpage.png  used on input line 275. on input
- line 275.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-275.
+ <./images/PLCList.png>]
+<images/PLCAssignmentList.png, id=919, 1028.34187pt x 547.2947pt>
+File: images/PLCAssignmentList.png Graphic file (type png)
+<use images/PLCAssignmentList.png>
+Package pdftex.def Info: images/PLCAssignmentList.png  used on input line 274.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1451,14 +1394,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [34
 
- <./images/tokenpage.png>]
-<images/PLCReadingList.png, id=946, 1028.34187pt x 547.2947pt>
-File: images/PLCReadingList.png Graphic file (type png)
-<use images/PLCReadingList.png>
-Package pdftex.def Info: images/PLCReadingList.png  used on input line 282. on 
-input line 282.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-282.
+ <./images/PLCAssignmentList.png>]
+<images/MachineParameter.png, id=946, 1028.34187pt x 547.2947pt>
+File: images/MachineParameter.png Graphic file (type png)
+<use images/MachineParameter.png>
+Package pdftex.def Info: images/MachineParameter.png  used on input line 280.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1466,14 +1407,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [35
 
- <./images/PLCReadingList.png>]
-<images/NAVSetMesurament.png, id=973, 1028.34187pt x 547.2947pt>
-File: images/NAVSetMesurament.png Graphic file (type png)
-<use images/NAVSetMesurament.png>
-Package pdftex.def Info: images/NAVSetMesurament.png  used on input line 288. o
-n input line 288.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-288.
+ <./images/MachineParameter.png>]
+<images/tokenpage.png, id=973, 1028.34187pt x 547.2947pt>
+File: images/tokenpage.png Graphic file (type png)
+<use images/tokenpage.png>
+Package pdftex.def Info: images/tokenpage.png  used on input line 285.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1481,14 +1420,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [36
 
- <./images/NAVSetMesurament.png>]
-<images/NAVServiziWeb.png, id=1000, 1028.34187pt x 547.2947pt>
-File: images/NAVServiziWeb.png Graphic file (type png)
-<use images/NAVServiziWeb.png>
-Package pdftex.def Info: images/NAVServiziWeb.png  used on input line 294. on i
-nput line 294.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-294.
+ <./images/tokenpage.png>]
+<images/PLCReadingList.png, id=1000, 1028.34187pt x 547.2947pt>
+File: images/PLCReadingList.png Graphic file (type png)
+<use images/PLCReadingList.png>
+Package pdftex.def Info: images/PLCReadingList.png  used on input line 292.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1496,14 +1433,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [37
 
- <./images/NAVServiziWeb.png>]
-<images/NAVSubscriptionPage.png, id=1028, 1028.34187pt x 547.2947pt>
-File: images/NAVSubscriptionPage.png Graphic file (type png)
-<use images/NAVSubscriptionPage.png>
-Package pdftex.def Info: images/NAVSubscriptionPage.png  used on input line 300
-. on input line 300.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-300.
+ <./images/PLCReadingList.png>]
+<images/NAVSetMesurament.png, id=1028, 1028.34187pt x 547.2947pt>
+File: images/NAVSetMesurament.png Graphic file (type png)
+<use images/NAVSetMesurament.png>
+Package pdftex.def Info: images/NAVSetMesurament.png  used on input line 298.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1511,14 +1446,12 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [38
 
- <./images/NAVSubscriptionPage.png>]
-<images/NAVPushMeasuraments1.png, id=1055, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments1.png Graphic file (type png)
-<use images/NAVPushMeasuraments1.png>
-Package pdftex.def Info: images/NAVPushMeasuraments1.png  used on input line 30
-5. on input line 305.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-305.
+ <./images/NAVSetMesurament.png>]
+<images/NAVServiziWeb.png, id=1055, 1028.34187pt x 547.2947pt>
+File: images/NAVServiziWeb.png Graphic file (type png)
+<use images/NAVServiziWeb.png>
+Package pdftex.def Info: images/NAVServiziWeb.png  used on input line 304.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1526,14 +1459,13 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [39
 
- <./images/NAVPushMeasuraments1.png>]
-<images/NAVPushMeasuraments2.png, id=1082, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments2.png Graphic file (type png)
-<use images/NAVPushMeasuraments2.png>
-Package pdftex.def Info: images/NAVPushMeasuraments2.png  used on input line 31
-0. on input line 310.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-310.
+ <./images/NAVServiziWeb.png>]
+<images/NAVSubscriptionPage.png, id=1082, 1028.34187pt x 547.2947pt>
+File: images/NAVSubscriptionPage.png Graphic file (type png)
+<use images/NAVSubscriptionPage.png>
+Package pdftex.def Info: images/NAVSubscriptionPage.png  used on input line 310
+.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1541,20 +1473,47 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 
 [40
 
- <./images/NAVPushMeasuraments2.png>]
-<images/NAVPushMeasuraments3.png, id=1108, 1028.34187pt x 547.2947pt>
-File: images/NAVPushMeasuraments3.png Graphic file (type png)
-<use images/NAVPushMeasuraments3.png>
-Package pdftex.def Info: images/NAVPushMeasuraments3.png  used on input line 31
-5. on input line 315.
-Package pdftex.def Info: Requested size: 342.2953pt x 182.1778pt on input line 
-315.
+ <./images/NAVSubscriptionPage.png>]
+<images/NAVPushMeasuraments1.png, id=1109, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments1.png Graphic file (type png)
+<use images/NAVPushMeasuraments1.png>
+Package pdftex.def Info: images/NAVPushMeasuraments1.png  used on input line 31
+5.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
 
 Overfull \hbox (32.54901pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [41
+
+ <./images/NAVPushMeasuraments1.png>]
+<images/NAVPushMeasuraments2.png, id=1136, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments2.png Graphic file (type png)
+<use images/NAVPushMeasuraments2.png>
+Package pdftex.def Info: images/NAVPushMeasuraments2.png  used on input line 32
+0.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
+
+Overfull \hbox (32.54901pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[42
+
+ <./images/NAVPushMeasuraments2.png>]
+<images/NAVPushMeasuraments3.png, id=1162, 1028.34187pt x 547.2947pt>
+File: images/NAVPushMeasuraments3.png Graphic file (type png)
+<use images/NAVPushMeasuraments3.png>
+Package pdftex.def Info: images/NAVPushMeasuraments3.png  used on input line 32
+5.
+(pdftex.def)             Requested size: 342.2953pt x 182.1778pt.
+
+Overfull \hbox (32.54901pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[43
 
  <./images/NAVPushMeasuraments3.png>]
 \tf@nav=\write6
@@ -1566,19 +1525,19 @@ Overfull \hbox (32.54901pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20567 strings out of 493312
- 382053 string characters out of 3138908
- 455565 words of memory out of 3000000
- 23569 multiletter control sequences out of 15000+200000
+ 20588 strings out of 493305
+ 382472 string characters out of 3138883
+ 456023 words of memory out of 3000000
+ 23587 multiletter control sequences out of 15000+200000
  9054 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,800b,799s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1587,9 +1546,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (41 pages, 2014377 bytes).
+Output written on presentation.pdf (43 pages, 2051524 bytes).
 PDF statistics:
- 1172 PDF objects out of 1200 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1228 PDF objects out of 1440 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
